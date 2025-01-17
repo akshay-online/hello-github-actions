@@ -37,3 +37,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Use Payload
+        run: |
+          echo "Payload key1: ${{ github.event.client_payload.key1 }}"
