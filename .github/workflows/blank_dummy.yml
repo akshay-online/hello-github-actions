@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
   repository_dispatch:
-    types: ["jira", "ADO"]
+    types: ["jira", "ADO","dev","qa", "QA", "DEV"]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
